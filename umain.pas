@@ -13,6 +13,21 @@ type
 
   TfrmMain = class(TForm)
     MainMenu1: TMainMenu;
+    MenuItem1: TMenuItem;
+    mnHelpDocumentation: TMenuItem;
+    mnHelpGithub: TMenuItem;
+    mnHelpTwitter: TMenuItem;
+    mnHelpAbout: TMenuItem;
+    mnSeparator5: TMenuItem;
+    mnSeparator4: TMenuItem;
+    mnHelp: TMenuItem;
+    mnEditSelectAll: TMenuItem;
+    mnEditCut: TMenuItem;
+    mnEditCopy: TMenuItem;
+    mnEditPaste: TMenuItem;
+    mnSeparator3: TMenuItem;
+    mnEditRedo: TMenuItem;
+    mnEditUndo: TMenuItem;
     mnEdit: TMenuItem;
     mnFileCloseTab: TMenuItem;
     mnFileExit: TMenuItem;
