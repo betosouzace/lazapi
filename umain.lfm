@@ -1,0 +1,22 @@
+object frmMain: TfrmMain
+  Left = 331
+  Height = 547
+  Top = 127
+  Width = 911
+  Caption = 'frmMain'
+  ClientHeight = 547
+  ClientWidth = 911
+  Menu = MainMenu1
+  LCLVersion = '3.4.0.0'
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 524
+    Width = 911
+    Panels = <>
+  end
+  object MainMenu1: TMainMenu
+    Left = 264
+    Top = 328
+  end
+end
