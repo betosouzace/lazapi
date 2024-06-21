@@ -13,7 +13,21 @@ type
 
   TfrmMain = class(TForm)
     MainMenu1: TMainMenu;
+    mnEdit: TMenuItem;
+    mnFileCloseTab: TMenuItem;
+    mnFileExit: TMenuItem;
+    mnFileForceCloseTab: TMenuItem;
+    mnFileCloseWindow: TMenuItem;
+    mnSeparator2: TMenuItem;
+    mnFileSettings: TMenuItem;
+    mnFileImport: TMenuItem;
+    mnSeparator1: TMenuItem;
+    mnFileNewWindow: TMenuItem;
+    mnFileNewTab: TMenuItem;
+    mnFile: TMenuItem;
+    mnFileNew: TMenuItem;
     StatusBar1: TStatusBar;
+    procedure mnFileClick(Sender: TObject);
   private
 
   public
@@ -26,6 +40,13 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TfrmMain }
+
+procedure TfrmMain.mnFileClick(Sender: TObject);
+begin
+
+end;
 
 end.
 
